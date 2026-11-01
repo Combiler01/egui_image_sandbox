@@ -1,0 +1,12 @@
+[package]
+name = "egui_image_sandbox"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+
+[dependencies]
+eframe = "0.37.0"
+egui = "0.37.0"
+egui_extras = { version = "0.37.0", features = ["all_loaders"] }
+image = "0.25.10"
+rfd = "0.17.2"
